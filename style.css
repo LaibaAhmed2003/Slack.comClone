@@ -1,0 +1,481 @@
+/* background-color: #541554 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    max-width: 100%;
+}
+
+/* navbar css starts */
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: #541554;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo{
+    padding: 5px 0px 0px 130px;
+}
+.navlist{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-top: 4px;
+}
+.navlist a{
+    font-size: .9375rem;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: left;
+    padding: 20px;
+}
+.searchbar{
+    margin: 0px 0px 0px 120px;
+    margin-top: 4px;
+}
+.searchbar i{
+    color: white;
+}
+.buttons-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.button1{
+    padding: 12px 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 17px;
+    margin: 0px 0px 0px 8px;
+    margin-top: 4px;
+    border-radius: 4px;
+}
+.button2{
+    padding: 12px 28px;
+    background-color: white;
+    border: 1px solid white;
+    color: #541554;
+    font-size: 17px;
+    margin: 0px 0px 0px 20px;
+    margin-top: 4px;
+    border-radius: 4px;
+}
+
+.menu-bar{
+    display: none;
+}
+
+/* Navbar css ends */
+
+/* First section css starts here */
+.first-container{
+    width: 100%;
+    height: 540px;
+    background-color: #541554;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-text{
+    width: 1230px;
+    height: 398px;
+    margin: 0px 145px;
+}
+.first-text h1{
+    color: white;
+    font-size: 51px;
+}
+.first-text h1 span{
+   color: #ecb22e!important;
+}
+.first-text p{
+    color: white;
+    font-size: 20px;
+    margin: 20px 92px 32px 8px;
+}
+.first-text p strong{
+    font-weight: 600;
+}
+.mainbutton1{
+    padding: 12px 18px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 17px;
+    margin: 0px 0px 0px 8px;
+    margin-top: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.mainbutton2 {
+    background-color: #4285f4;
+    border: 1px solid #4285f4;
+    border-radius: 4px;
+    padding: 12px 18px;
+    color: white;
+    font-size: 17px;
+    margin: 0px 0px 0px 8px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+
+/* .mainbutton2 span img{
+    padding-top: 3px;
+    margin-left: 2px;
+    width: 49px;
+    height: 49px;
+} */
+.first-video{
+    max-width: 700px;
+    max-height: 400px;
+}
+.first-video video{
+    max-width: 700px;
+    max-height: 400px;
+}
+
+
+/* First section css ends here */
+
+/* Client section starts here */
+.client-container{
+    height: 200px;
+    width: 100%;
+    background-color: #F4EDE4;
+    padding: 48px 0px 0px;
+    text-align: center;
+}
+.client-container h2{
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+.clients{
+    height: 84px;
+    width: 1230;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0px 10px; */
+}
+.clients img{
+    padding: 8px 37px;
+}
+.nasa{
+    max-width: 100%;
+    height: auto;
+}
+/* Client section ends here */
+
+/* Tools section starts here */
+.tools{
+    height: 400px;
+    width: 100%;
+    background-color: #F4EDE4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.tool-video{
+    max-width: 600px;
+    max-height: 345px;
+}
+.tool-video video{
+    max-width: 600px;
+    max-height: 340px;
+    margin-left: 150px;
+}
+
+.tool-text{
+    width: 1230px;
+    height: 398px;
+    margin: 0px 175px;
+    padding-top: 93px;
+}
+.tool-text h2{
+    font-size: 50px;
+    margin: 0px 0px 16px;
+}
+.tool-text p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+.tool-text a{
+    margin-top: 4px;
+    color: #1264a3;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.tool-text a:hover{
+    text-decoration: underline;
+}
+.f-video{
+    max-width: 700px;
+    max-height: 345px;
+}
+.f-video video{
+    max-width: 600px;
+    max-height: 340px;
+    margin-right: 128px;
+    padding-right: 12px;
+}
+/* Tools section ends here */
+/* team section starts here */
+.team-section{
+    width: 1520px;
+    height: 520px;
+    padding: 48px 0px 24px;
+    text-align: center;
+}
+.team-section h2{
+    font-size: 3rem;
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+.team-section p{
+    margin-bottom: 16px;
+}
+ .button3{
+    padding: 12px 20px;
+    background-color: transparent;
+    border: 1px solid #541554;
+    color: #541554;
+    font-size: 17px;
+    margin: 0px 0px 0px 8px;
+    margin-top: 4px;
+    border-radius: 4px;
+}
+.button4{
+    padding: 12px 28px;
+    background-color: #541554;
+    border: 1px solid #541554;
+    color: white;
+    font-size: 17px;
+    margin: 0px 0px 0px 20px;
+    margin-top: 4px;
+    border-radius: 4px;
+}
+.percen{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 18px 0px 16px;
+    padding: 24px 0px 0px;
+}
+.percen p{
+    width: 190px;
+    height: 40px;
+    font-size: 14px;
+    text-align: left;
+}
+span{
+    display: block;
+    color: #541554;
+    font-size: 64px;
+    font-weight: 900;
+}
+/* Blog section starts here */
+.blog-section{
+    background-color: #F4EDE4;
+    width: 100%;
+    height: 628px;
+    text-align: center;
+    padding: 32px 0px;
+}
+.blog-section h2{
+    font-size: 32px;
+    margin: 27px 16px; 
+    font-weight: 900;
+}
+.blog-section .grid-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box{
+    height: 420px;
+    width: 285px;
+    background-color: rgb(255, 255, 255);
+}
+
+.box img{
+    width: 285px;
+    height: 208px;
+    padding: 12px;
+}
+.box span{
+    font-size: 14px;
+    text-align: left;
+    margin: 8px 0px 0px;
+    color: black;
+    font-weight: 400;
+}
+.box .box-header{
+    padding: 0px 12px;
+}
+.box h3{
+    text-align: left;
+    font-size: 23px;
+    margin: 8px 0px 16px;
+}
+.box > .box-link{
+    color: #1264A3;
+    padding: 0px 12px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.125;
+    letter-spacing: .8px;
+    height: 5rem;
+    white-space: normal;
+    
+}
+/* Blog section ends here */
+
+
+/* Accomp section starts here */
+.accomp{
+    width: 100%;
+    height: 400px;
+    background-color: #541554;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    clip-path: ellipse(75% 100% at center top);
+    height: auto;
+    min-height: 370px;
+}
+.content-container h2{
+    font-size: 50px;
+    margin: 0 0 32px;
+    color: white;
+}
+
+.button3-c{
+    padding: 12px 20px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #fcfcfc;
+    font-size: 17px;
+    margin: 0px 0px 0px 8px;
+    margin-top: 4px;
+    border-radius: 4px;
+}
+.button4-c{
+    padding: 12px 28px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: #541554;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0px 0px 0px 20px;
+    margin-top: 4px;
+    border-radius: 4px;
+}
+/* Accomp section ends here */
+
+/* footer section starts here */
+
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 410px;
+    padding: 56px 0px 0px;
+    background-color: #ffffff;
+}
+
+.footer-container span{
+    font-size: 14px;
+    color: black;
+}
+.footer-container span a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding: 15px 0px;
+}
+
+
+/* footer section ends here */
+
+/* Media queries */
+
+
+@media(max-width:1365px) and (min-width: 1100px){
+    .navlist a{
+        padding: 10px;
+    }
+    .button1{
+        padding: 10px 10px;
+    }
+    .button2{
+        padding: 10px 10px;
+    }
+}
+@media(max-width: 1100px) and (min-width: 300px){
+    .navbar .navlist{
+       margin-top: 0;
+    }
+    .navbar .logo{
+        text-align: center;
+        margin-left: -60px;
+    }
+    .navlist{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background-color: #541554;
+        height: 100vh;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .navlist a{
+        display: block;
+        margin: 10px 0px;
+        text-align: center;
+    }
+
+    .navlist .buttons-container a,
+    .searchbar i{
+        display: none;
+    }
+    .button1{
+        padding: 8px 8px;
+        margin: 12px;
+    }
+    .button2{
+        padding: 8px 8px;
+        margin: 12px;
+
+    }
+    .menu-bar{
+        display: block;
+        color: white;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    #click:checked ~ .nav-content .navlist{
+        left: 0%;
+    }
+
+}
+
+
+/* for mobile and responsiveness */
+
